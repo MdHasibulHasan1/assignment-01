@@ -4,7 +4,7 @@ body{
     font-family: 'Open Sans', sans-serif;;
 }
 body section, header{
-    margin-bottom: 135px;
+    margin-bottom: 100px;
 }
 .primary-btn{
     background-color:rgb(248, 238, 235);
@@ -26,7 +26,7 @@ body section, header{
 /* header-section-start */
 header{
     padding-top: 100px;
-    height: 700px;
+    height: 600px;
     width: 100%;
     background-image: url('../images/banner/banner1.png'), linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
     background-size: 100% 100%;
@@ -49,11 +49,16 @@ header .primary-btn{
 /* bonus-section-start */
 .bonus-section{
     display: flex;
-    margin-top: 135px;
+    margin: 0 auto;
+    background-image: url('../images/gradient2.png'), linear-gradient(to right, rgba(250, 247, 247, 0.331), rgba(255,0,0,1));
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+    border-radius: 5px;
+    width: 80%;
 }
 .left-side{
     width: 30%;
-    background-color: rgba(0, 0, 0, 0.829);
+    /* background-color: rgba(0, 0, 0, 0.829); */
     color: white;
     text-align: center;
     padding:0 2% ;
@@ -86,7 +91,6 @@ nav ul li a {
     color: black;
   }
   .bonus-section .right-side{
-    background-color: black;
     padding: 150px 10%;
     color: #fff;
   }
@@ -102,7 +106,7 @@ nav ul li a {
     width: 40%;
 }
 .my-failures-section .my-failures-left-img{
-    margin: 0 0 0 10%
+    margin: 100px 0 0 10%
 }
 .my-failures-section .my-failures-left{
     margin-top: 230px;
@@ -117,6 +121,7 @@ li img{
 /* my-failures-section-styles-start */
 /* my-plan-section-start */
 .my-plan{
+    margin-top: 100px;
     text-align: center;
 }
 .my-plan-container{
