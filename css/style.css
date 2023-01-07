@@ -6,7 +6,6 @@ body{
 body section, header{
     margin-bottom: 135px;
 }
-
 .primary-btn{
     background-color:rgb(248, 238, 235);
     padding: 20px 20px;
@@ -69,7 +68,6 @@ nav ul {
     list-style-type: none;
     
   }
-
 nav ul li a {
     display: block;
     text-decoration: none;
@@ -82,13 +80,11 @@ nav ul li a {
     margin-bottom: 5px;
     padding: 5px 0;
   }
-  
   /* Change the link color on hover */
     nav ul li a:hover {
     background-color: #fff;
     color: black;
   }
-
   .bonus-section .right-side{
     background-color: black;
     padding: 150px 10%;
@@ -101,20 +97,16 @@ nav ul li a {
 /* my-failures-section-styles-start */
 .my-failures-section{
     display: flex;
-    
 }
 .my-failures-section div{
     width: 40%;
-    
 }
 .my-failures-section .my-failures-left-img{
-    margin: 0 0 0 10%;
-    
+    margin: 0 0 0 10%
 }
 .my-failures-section .my-failures-left{
     margin-top: 230px;
 }
-
 li{
     list-style-type: none;
     margin-left: -40px;
@@ -122,7 +114,6 @@ li{
 li img{
     width: 15px;
 }
-
 /* my-failures-section-styles-start */
 /* my-plan-section-start */
 .my-plan{
@@ -144,7 +135,6 @@ li img{
 }
 /* my-plan-end */
 /* always-keep-section-start */
-
 .always-keep{
     width: 80%;
     margin: 0 auto;
@@ -188,7 +178,6 @@ footer div{
 .subscribe-section h3{
     font-weight: 600;
     font-size: 25px;
-    
 }
 form input[type=email]{
     padding: 22px;
